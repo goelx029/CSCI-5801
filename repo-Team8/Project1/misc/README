@@ -1,0 +1,12 @@
+File : CSVFileGenerator
+Arguments:
+	0: CSVFileGenerator (python script name)
+	1: Type of Voting. Can be specified using the given mapping of numbers
+		0 --> General STV Voting where each ballot gives preference to each candidate
+		1 --> General Plurality Voting where each ballot is assigned to some random candidate
+		2 --> STV Voting with ballots giving preference to random number of candidates
+		3 --> Plurality Tie. Creates a CSV file where there are two candidates with equal number of votes.
+	2: Number of Candidates
+	3: Number of Votes
+	4: File Name (Please add .csv at the end for proper format), eg - Plurality4Candidates50Votes.csv
+
